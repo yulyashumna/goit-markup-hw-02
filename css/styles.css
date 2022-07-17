@@ -1,0 +1,258 @@
+:root {
+    --black-color: #212121;
+    --blue-color: #2196F3;
+    --grey-color: #757575;
+    --white-color: #FFFFFF;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: var(--white-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link, .header-logo {
+    text-decoration: none;
+}
+
+.header-logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+color: var(--black-color);
+}
+
+.blue-logo {
+    color: var(--blue-color); 
+}
+
+.header-list .current {
+    color: var(--blue-color);
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14
+    letter-spacing: 0.02em;
+    color: var(--black-color) ;   
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--blue-color);
+}
+
+.header-mail {
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.02em;
+color: var(--blue-color);
+}
+
+.header-tel {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+    color: var(--grey-color); 
+}
+
+/*----- Герой-----*/
+.hero {
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+background: #2F303A;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);   
+}
+
+.hero-btn {
+   color: var(--white-color);
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1,87; 
+   background-color: var(--blue-color);
+   position: absolute;
+   width: 200px;
+   height: 50px;
+   left: 700px;
+   top: 430px;
+}
+
+.hero-btn:hover {
+    background-color:#188CE8; ;
+}
+
+/*-----Преимущества фирмы-----*/
+
+.desk-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase; 
+    color: var(--black-color);
+}
+
+.desk-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
+    color: var(--grey-color);
+}
+
+/*-----Чем мы занимаемся-----*/
+
+.features {
+    background-color: #E5E5E5;
+}
+
+.feat-title {
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1,16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--black-color);
+}
+
+.team {
+background-color: #F5F4FA;
+}
+
+.team-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-color);  
+}
+
+.team-subtitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-color); 
+}
+
+.team-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--grey-color);
+}
+
+/*-----footer-----*/
+.page-footer {
+    background-color:#2F303A; ;
+}
+.footer-logo {
+    text-decoration: none;
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
+    color: var(--white-color) ;
+}
+
+.address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+}
+
+.mail, .tel {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*-----Портфолио все разделы-----*/
+
+.content-button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+    width: 130px;
+    height: 38px;
+    left: 976px;
+    top: 174px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.content-button:hover {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+    border-radius: 4px;
+    background: var(--blue-color);
+}
+
+.blocks-subtitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2,0;
+    letter-spacing: 0.06em;
+    color: var(--black-color);
+}
+
+.blocks-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,87;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
